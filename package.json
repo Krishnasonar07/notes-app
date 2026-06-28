@@ -5,11 +5,22 @@
   "type": "module",
   "homepage": "https://github.io",
   "scripts": {
+<<<<<<< HEAD
    "dev": "vite",
   "build": "vite build",
   "preview": "vite preview",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
+=======
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  "start": "react-scripts start",
+  "build": "react-scripts build"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+>>>>>>> 98ac3246bef0bef5650a29708b416378967bdf86
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.1",
